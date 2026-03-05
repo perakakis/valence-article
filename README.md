@@ -23,11 +23,16 @@ This project tests whether metrics quantifying directional transitions predict p
 
 ```
 code/
-  ASR.r             # Compute P2N and N2P affect shift ratios per subject
-  MEAN_SD.r         # Compute mean and SD of positive/negative affect per subject
-  RMSSD.r           # Compute Root Mean Square of Successive Differences per subject
-  preprocessData.r  # Filter subjects based on compliance and variance thresholds
-  Figure1.py        # Generate Figure 1 (predictor convergence across methods)
+  Preprocess.r        # Load, preprocess, and compute all stats for EMA datasets (entry point)
+  FilterParticipants.r# Filter subjects based on compliance and variance thresholds
+  ASR.r               # Compute P2N and N2P affect shift ratios per subject
+  MEAN_SD.r           # Compute mean and SD of positive/negative affect per subject
+  RMSSD.r             # Compute Root Mean Square of Successive Differences per subject
+  AR.r                # Compute autoregressive coefficient per subject (mixed-effects)
+  LASSO.r             # LASSO regression with LOOCV for all continuous outcomes
+  LinearRegression.r  # Hierarchical linear regression for all continuous outcomes
+  RelativeImportance.r# Relative importance analysis (LMG) for all continuous outcomes
+  Figure1.py          # Generate Figure 1 (predictor convergence across methods)
 
 data/
   00 german.*           # German EMA dataset
@@ -47,7 +52,7 @@ data/
 
 ## Dependencies
 
-**R:** `data.table`
+**R:** `data.table`, `glmnet`, `caret`, `relaimpo`, `lme4`, `ggplot2`, `reshape2`, `R.utils`
 
 **Python:** `pandas`, `numpy`, `matplotlib`
 

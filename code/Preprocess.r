@@ -1,4 +1,4 @@
-# INITIALISE.R: Load, preprocess, compute stats for EMA datasets
+# Preprocess.R: Load, preprocess, compute stats for EMA datasets
 # Outputs SAll, RAll, CAll,COVDataset, infoDatasets
 library(data.table)
 
@@ -6,8 +6,8 @@ library(data.table)
 if (!dir.exists("results")) dir.create("results")
 if (!dir.exists("plots")) dir.create("plots")
 
-# Load preprocess script
-source("code/preprocessData.R")
+# Load filter participants script
+source("code/FilterParticipants.R")
 
 # Load statistics scripts
 source("code/MEAN_SD.R")
@@ -86,7 +86,7 @@ for (i in seq_along(DataStrAll)) {
     }
 
     # Preprocess dataset
-    preprocess_result <- preprocessData(
+    preprocess_result <- FilterParticipants(
         data = data,
         Rfull = Rfull,
         # Cfull = Cfull,

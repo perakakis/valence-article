@@ -33,9 +33,9 @@ if (use_cache) {
     select_freq <- cache_data$select_freq
     message("Loaded cached results from ", cache_file)
 } else {
-    # Source INITIALISE.R
-    if (!file.exists("code/INITIALISE.R")) stop("INITIALISE.R not found")
-    source("code/INITIALISE.R")
+    # Source Preprocess.R
+    if (!file.exists("code/Preprocess.R")) stop("Preprocess.R not found")
+    source("code/Preprocess.R")
 
     set.seed(1) # For reproducibility
 

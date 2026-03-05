@@ -8,9 +8,9 @@ library(reshape2)
 rm(list = ls())
 graphics.off()
 
-# Source INITIALISE.R
-if (!file.exists("code/INITIALISE.R")) stop("INITIALISE.R not found")
-source("code/INITIALISE.R")
+# Source Preprocess.R
+if (!file.exists("code/Preprocess.R")) stop("Preprocess.R not found")
+source("code/Preprocess.R")
 
 set.seed(1) # For reproducibility
 

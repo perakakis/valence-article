@@ -1,5 +1,5 @@
-# preprocessData.R: Filter subjects based on compliance and variance thresholds
-# Function: preprocessData
+# FilterParticipants.R: Filter subjects based on compliance and variance thresholds
+# Function: FilterParticipants
 # Inputs:
 #   data: data.table containing PID, day, beep, valence columns
 #   Rfull, Cfull: Regression and classification data (optional)
@@ -9,7 +9,7 @@
 # Outputs:
 #   List with filtered data and summary stats
 
-preprocessData <- function(data, Rfull, minCompliance) {
+FilterParticipants <- function(data, Rfull, minCompliance) {
   library(data.table)
 
   dt <- as.data.table(data)
