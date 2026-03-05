@@ -40,16 +40,6 @@ data/
   02 postcovid2.*       # Post-COVID EMA dataset 2
 ```
 
-## Metrics
-
-| Metric | Description |
-|--------|-------------|
-| P2N | Positive-to-negative affect shift ratio |
-| N2P | Negative-to-positive affect shift ratio |
-| M_PosA / M_NegA | Mean positive / negative affect |
-| SD_PosA / SD_NegA | Standard deviation of positive / negative affect |
-| RMSSD | Root mean square of successive differences |
-
 ## Dependencies
 
 **R:** `data.table`, `glmnet`, `caret`, `relaimpo`, `lme4`, `ggplot2`, `reshape2`, `R.utils`
