@@ -6,6 +6,8 @@ Code repository for the preprint:
 
 Preprint: [https://doi.org/10.31234/osf.io/gmkc8_v1](https://doi.org/10.31234/osf.io/gmkc8_v1)
 
+OSF Project: 
+
 ## Overview
 
 Valence is central to affective experience yet remains poorly operationalized in emotion science. Most research infers valence by categorizing discrete emotions as positive or negative, which may conflate distinct aspects of emotional experience. Direct bipolar valence measurement — asking individuals how they feel on a continuum from negative to positive — allows participants to integrate contextual complexity into their affective reports and enables detection and quantification of transitions between positive and negative affective states.
