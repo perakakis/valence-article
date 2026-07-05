@@ -3,6 +3,7 @@
 **"How do you feel?" Direct valence measurement enables the detection of affect shift dynamics as powerful predictors of psychological well-being.**
 
 Preprint: [https://doi.org/10.31234/osf.io/gmkc8_v1](https://doi.org/10.31234/osf.io/gmkc8_v1)
+
 Journal article: [https://doi.org/10.1007/s42761-026-00382-9](https://doi.org/10.1007/s42761-026-00382-9)
 
 ## Citation
