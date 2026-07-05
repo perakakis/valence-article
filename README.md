@@ -1,12 +1,13 @@
-# Valence Dynamics and Psychological Well-Being
+# Code and data repository for the article:
 
-Code repository for the preprint:
-
-**"Direct Valence Measurement Enables More Predictive Affect Dynamics"**
+**"How do you feel?" Direct valence measurement enables the detection of affect shift dynamics as powerful predictors of psychological well-being.**
 
 Preprint: [https://doi.org/10.31234/osf.io/gmkc8_v1](https://doi.org/10.31234/osf.io/gmkc8_v1)
+Journal article: [https://doi.org/10.1007/s42761-026-00382-9](https://doi.org/10.1007/s42761-026-00382-9)
 
-OSF Project: 
+## Citation
+
+Goicoechea, C., & Perakakis, P. (2026). "How do you feel?" Direct valence measurement enables the detection of affect shift dynamics as powerful predictors of psychological well-being. Affective Science. [https://doi.org/10.1007/s42761-026-00382-9](https://doi.org/10.1007/s42761-026-00382-9)
 
 ## Overview
 
@@ -21,32 +22,6 @@ This project tests whether metrics quantifying directional transitions predict p
 - Advantage was robust even with only 3 daily assessments
 - Three datasets: German EMA study, Post-COVID EMA study 1, Post-COVID EMA study 2
 
-## Repository Structure
-
-```
-code/
-  Preprocess.r        # Load, preprocess, and compute all stats for EMA datasets (entry point)
-  FilterParticipants.r# Filter subjects based on compliance and variance thresholds
-  ASR.r               # Compute P2N and N2P affect shift ratios per subject
-  MEAN_SD.r           # Compute mean and SD of positive/negative affect per subject
-  RMSSD.r             # Compute Root Mean Square of Successive Differences per subject
-  AR.r                # Compute autoregressive coefficient per subject (mixed-effects)
-  LASSO.r             # LASSO regression with LOOCV for all continuous outcomes
-  LinearRegression.r  # Hierarchical linear regression for all continuous outcomes
-  RelativeImportance.r# Relative importance analysis (LMG) for all continuous outcomes
-  Figure1.py          # Generate Figure 1 (predictor convergence across methods)
-
-data/
-  00 german.*           # German EMA dataset
-  01 postcovid1.*       # Post-COVID EMA dataset 1
-  02 postcovid2.*       # Post-COVID EMA dataset 2
-```
-
-## Dependencies
-
-**R:** `data.table`, `glmnet`, `caret`, `relaimpo`, `lme4`, `ggplot2`, `reshape2`, `R.utils`
-
-**Python:** `pandas`, `numpy`, `matplotlib`
 
 ## Data
 
@@ -54,7 +29,3 @@ The datasets are included in this repository and also citable via Zenodo:
 
 - German EMA dataset: [https://doi.org/10.5281/zenodo.11060596](https://doi.org/10.5281/zenodo.11060596)
 - Post-COVID EMA datasets: [https://doi.org/10.5281/zenodo.15001651](https://doi.org/10.5281/zenodo.15001651)
-
-## Citation
-
-Goicoechea, C., & Perakakis, P. (2026, February 28). [“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors of Psychological Well-Being.](https://doi.org/10.31234/osf.io/gmkc8_v1) Preprint.
