@@ -1,5 +1,7 @@
 # Code and data repository for the article:
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23892057.svg)](https://doi.org/10.5281/zenodo.23892057)
+
 **"How do you feel?" Direct valence measurement enables the detection of affect shift dynamics as powerful predictors of psychological well-being.**
 
 Preprint: [https://doi.org/10.31234/osf.io/gmkc8_v5](https://doi.org/10.31234/osf.io/gmkc8_v5)
