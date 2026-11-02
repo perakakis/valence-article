@@ -1,0 +1,34 @@
+{
+  "upload_type": "software",
+  "license": "CC-BY-4.0",
+  "version": "v1.0",
+  "access_right": "open",
+  "title": "Code and data for the article \"How do you feel? Direct valence measurement enables the detection of affect shift dynamics as powerful predictors of psychological well-being\"",
+  "description": "Analysis code (R) and the three ecological momentary assessment datasets (German study, Spanish studies 1 and 2; N = 345) used in Goicoechea and Perakakis (2026), Affective Science. The code is released under the MIT licence and the data under CC BY 4.0; see LICENSE and data/LICENSE.md in the archive.",
+  "creators": [
+    {
+      "name": "Goicoechea, Carmen",
+      "affiliation": "Complutense University of Madrid; University of La Rioja"
+    },
+    {
+      "name": "Perakakis, Pandelis",
+      "affiliation": "Complutense University of Madrid",
+      "orcid": "0000-0002-9130-3247"
+    }
+  ],
+  "keywords": [
+    "affect dynamics",
+    "valence",
+    "affect shifts",
+    "ecological momentary assessment",
+    "well-being"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1007/s42761-026-00382-9",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}

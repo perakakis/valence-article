@@ -26,7 +26,11 @@ This project tests whether metrics quantifying directional transitions predict p
 
 ## Data
 
-The datasets are included in this repository and also citable via Zenodo:
+The datasets are included in this repository (`data/`) and are also citable via Zenodo:
 
-- German EMA dataset: [https://doi.org/10.5281/zenodo.11060596](https://doi.org/10.5281/zenodo.11060596)
-- Post-COVID EMA datasets: [https://doi.org/10.5281/zenodo.15001651](https://doi.org/10.5281/zenodo.15001651)
+- German EMA study (`00 german*.csv`) and Post-COVID EMA study 1 (`01 postcovid1*.csv`): [https://doi.org/10.5281/zenodo.15001651](https://doi.org/10.5281/zenodo.15001651)
+- Post-COVID EMA study 2 (`02 postcovid2*.csv`), the MobileWell400+ dataset: [https://doi.org/10.5281/zenodo.11060596](https://doi.org/10.5281/zenodo.11060596)
+
+## License
+
+The code is released under the MIT licence (`LICENSE`). The data are released under CC BY 4.0 (`data/LICENSE.md`).
